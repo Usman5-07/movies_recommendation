@@ -8,7 +8,10 @@ config = json.load(open('config.json'))
 
 
 # Load the API key from the config file
-OMDB_API_KEY = config['OMDB_API_KEY']
+# OMDB_API_KEY = config['OMDB_API_KEY']
+
+OMDB_API_KEY = st.secrets["my_config"]["api_key"]
+
 
 st.set_page_config(
     page_title="Movie Recommendation System",
