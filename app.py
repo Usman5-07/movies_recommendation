@@ -3,13 +3,6 @@ import streamlit as st
 from recommend import recommend_movies, df
 from omdb_util import get_movie_details
 
-config = json.load(open('config.json'))
-
-
-
-# Load the API key from the config file
-# OMDB_API_KEY = config['OMDB_API_KEY']
-
 OMDB_API_KEY = st.secrets["my_config"]["api_key"]
 
 
