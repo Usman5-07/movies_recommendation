@@ -19,3 +19,14 @@
 2025-05-05 20:37:35,672 - INFO - ✅ Cosine similarity calculated.
 2025-05-05 20:37:36,052 - INFO - Model and vectorizer saved successfully.
 2025-05-05 20:37:36,052 - INFO - Preprocessing script completed successfully.
+2025-05-05 22:47:08,880 - INFO - Starting preprocessing script...
+2025-05-05 22:47:09,772 - INFO - Loading dataset...
+2025-05-05 22:47:10,082 - INFO - ✅ Dataset loaded successfully.
+2025-05-05 22:47:10,094 - INFO - Features selected and NaN values dropped.(4377, 5)
+2025-05-05 22:47:10,586 - INFO - Text ✅ preprocessing completed.
+2025-05-05 22:47:10,586 - INFO - Vectorizing 📉 text data...
+2025-05-05 22:47:10,698 - INFO - ✅ Vectorization completed.
+2025-05-05 22:47:10,698 - INFO - Calculating cosine similarity...
+2025-05-05 22:47:10,948 - INFO - ✅ Cosine similarity calculated.
+2025-05-05 22:47:11,171 - INFO - Model and vectorizer saved successfully.
+2025-05-05 22:47:11,171 - INFO - Preprocessing script completed successfully.
